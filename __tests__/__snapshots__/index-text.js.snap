@@ -1,0 +1,390 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index screen renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+      "paddingTop": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      placeholder="Buscar pokemon"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "alignSelf": "center",
+          "borderColor": "gray",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "height": 40,
+          "marginBottom": 20,
+          "paddingHorizontal": 25,
+          "width": 360,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#000",
+            "fontSize": 20,
+          },
+          Object {
+            "left": 30,
+            "position": "absolute",
+            "top": 10,
+          },
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "marginHorizontal": 15,
+      }
+    }
+    data={
+      Array [
+        Object {
+          "name": "pikachu",
+          "number": "1",
+        },
+        Object {
+          "name": "Squirtle",
+          "number": "2",
+        },
+        Object {
+          "name": "charmander",
+          "number": "3",
+        },
+        Object {
+          "name": "Bolvasur",
+          "number": "4",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "height": 200,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "opacity": 1,
+              "paddingLeft": 10,
+              "paddingTop": 10,
+              "width": 180,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "green",
+                "fontSize": 15,
+                "marginBottom": 10,
+              }
+            }
+          >
+            #
+            1
+          </Text>
+          <Image
+            alt="Imagen pokemon"
+            source={
+              Object {
+                "testUri": "../../../src/assets/logo192.png",
+              }
+            }
+            style={
+              Object {
+                "alignSelf": "center",
+                "height": 100,
+                "width": 100,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "fontSize": 20,
+                "marginTop": 10,
+              }
+            }
+          >
+            pikachu
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "height": 200,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "opacity": 1,
+              "paddingLeft": 10,
+              "paddingTop": 10,
+              "width": 180,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "green",
+                "fontSize": 15,
+                "marginBottom": 10,
+              }
+            }
+          >
+            #
+            2
+          </Text>
+          <Image
+            alt="Imagen pokemon"
+            source={
+              Object {
+                "testUri": "../../../src/assets/logo192.png",
+              }
+            }
+            style={
+              Object {
+                "alignSelf": "center",
+                "height": 100,
+                "width": 100,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "fontSize": 20,
+                "marginTop": 10,
+              }
+            }
+          >
+            Squirtle
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "height": 200,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "opacity": 1,
+              "paddingLeft": 10,
+              "paddingTop": 10,
+              "width": 180,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "green",
+                "fontSize": 15,
+                "marginBottom": 10,
+              }
+            }
+          >
+            #
+            3
+          </Text>
+          <Image
+            alt="Imagen pokemon"
+            source={
+              Object {
+                "testUri": "../../../src/assets/logo192.png",
+              }
+            }
+            style={
+              Object {
+                "alignSelf": "center",
+                "height": 100,
+                "width": 100,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "fontSize": 20,
+                "marginTop": 10,
+              }
+            }
+          >
+            charmander
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "height": 200,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "opacity": 1,
+              "paddingLeft": 10,
+              "paddingTop": 10,
+              "width": 180,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "green",
+                "fontSize": 15,
+                "marginBottom": 10,
+              }
+            }
+          >
+            #
+            4
+          </Text>
+          <Image
+            alt="Imagen pokemon"
+            source={
+              Object {
+                "testUri": "../../../src/assets/logo192.png",
+              }
+            }
+            style={
+              Object {
+                "alignSelf": "center",
+                "height": 100,
+                "width": 100,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "fontSize": 20,
+                "marginTop": 10,
+              }
+            }
+          >
+            Bolvasur
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
